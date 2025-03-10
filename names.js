@@ -7,3 +7,4 @@ function nameAdder(name, surname) {
     let fullName = { firstName: name, lastName: surname }
     return fullName
 }
+module.exports = nameAdder
