@@ -12,6 +12,6 @@ Esporta la funzione dal file.
  */
 function hobbiesAdder(hobbyOne, hobbyTwo, hobbyThree) {
     let hobbiesArr = [hobbyOne, hobbyTwo, hobbyThree]
-    return hobbiesAdder
+    return hobbiesArr
 }
 module.exports = hobbiesAdder
