@@ -10,9 +10,10 @@ const hobbiesAdder = require('./hobbies.js')
  * @returns an object created by two functions
  */
 function objectGenerator() {
+    let name = nameAdder("Navod", "Contrath")
     let person = {
-        fullName: nameAdder("Navod", "Contrath").firstName + " " + nameAdder("Navod", "Contrath").lastName,
-        hobbies: hobbiesAdder("basket", "books", "cinema")
+        fullName: name.firstName + " " + name.lastName,
+        hobbies: hobbiesAdder("basket", "books", "cinema"),
     }
     return person
 }
