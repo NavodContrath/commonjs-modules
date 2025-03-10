@@ -10,7 +10,7 @@ Esporta la funzione dal file.
  * @returns object fullName
  */
 function nameAdder(firstName, lastName) {
-    let fullName = { firstName, lastName }
-    return fullName
+    let nameObject = { firstName, lastName }
+    return nameObject.firstName + " " + nameObject.lastName
 }
 module.exports = nameAdder
