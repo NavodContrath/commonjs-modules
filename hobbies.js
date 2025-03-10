@@ -14,3 +14,4 @@ function hobbiesAdder(hobbyOne, hobbyTwo, hobbyThree) {
     let hobbiesArr = [hobbyOne, hobbyTwo, hobbyThree]
     return hobbiesAdder
 }
+module.exports = hobbiesAdder
