@@ -7,7 +7,7 @@ Esporta la funzione dal file.
  * 
  * @param {*} name 
  * @param {*} surname 
- * @returns fullName
+ * @returns object fullName
  */
 function nameAdder(firstName, lastName) {
     let fullName = { firstName, lastName }
