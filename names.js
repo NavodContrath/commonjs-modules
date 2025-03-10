@@ -11,7 +11,6 @@ Esporta la funzione dal file.
  */
 function nameAdder(firstName, lastName) {
     let fullName = { firstName, lastName }
-    console.log(fullName)
+    return fullName
 }
-nameAdder("navod", "contrath")
 module.exports = nameAdder
