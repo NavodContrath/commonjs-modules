@@ -9,8 +9,9 @@ Esporta la funzione dal file.
  * @param {*} surname 
  * @returns fullName
  */
-function nameAdder(name, surname) {
-    let fullName = { firstName: name, lastName: surname }
-    return fullName
+function nameAdder(firstName, lastName) {
+    let fullName = { firstName, lastName }
+    console.log(fullName)
 }
+nameAdder("navod", "contrath")
 module.exports = nameAdder
